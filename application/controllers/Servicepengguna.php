@@ -16,7 +16,7 @@ class Servicepengguna extends CI_Controller
             echo json_encode(["sukses" => true]);
 
             $this->session->set_userdata('username',$this->input->post('username'));
-            // $this->session->set_userdata('RoleIdAktif', 2);
+            // $this->session->set_userdata('username',$this->input->post('username'));
         } else
             echo json_encode(["sukses" => false]);
     }

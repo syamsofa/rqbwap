@@ -1,6 +1,6 @@
 <?php
-// if ($this->session->userdata('Email'))
-//     redirect('site/dashboard_kinerja/pantun');
+if ($this->session->userdata('username'))
+    redirect('site');
 
 ?>
 

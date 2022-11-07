@@ -25,7 +25,7 @@ curl_setopt_array($curl, array(
   CURLOPT_SSL_VERIFYPEER => 0,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "token=0aw976k6gc8hj7lz&to=6285211534677&image=https://file-example.s3-accelerate.amazonaws.com/images/test.jpg&caption=OK&referenceId=&nocache=",
+  CURLOPT_POSTFIELDS => "token=0aw976k6gc8hj7lz&to=6285225199775&image=https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Lambang_Badan_Pusat_Statistik_%28BPS%29_Indonesia.svg/1726px-Lambang_Badan_Pusat_Statistik_%28BPS%29_Indonesia.svg.png&caption=TES_BROADCAST&referenceId=&nocache=",
   CURLOPT_HTTPHEADER => array(
     "content-type: application/x-www-form-urlencoded"
   ),
