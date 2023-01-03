@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <!-- left column -->
-            <div class="col-md-6">
+                <div class="col-md-6">
                 <!-- general form elements -->
                 <div class="card card-primary">
                     <div class="card-header">
@@ -36,7 +36,6 @@
 
                     <div class="card-footer">
                         <button id="btnSemua" onclick="kirimSemua()" class="btn btn-success"><i class='fa fa-paper-plane' aria-hidden='true'></i> Kirim Semua</button>
-                        <button onclick="tulisNomor()" class="btn btn-primary">Test kirim ke 1 nomor</button>
                     </div>
 
                 </div>
@@ -147,7 +146,7 @@
         console.log(fileupload)
         var form_data = new FormData();
         form_data.append('file', fileupload);
-        form_data.append('Pesan', $('textarea#pesan').val());
+        form_data.append('Pesan', $('#pesan').val());
 
         $.ajax({
 
